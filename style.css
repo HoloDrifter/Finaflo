@@ -11,6 +11,7 @@
 }
 body {
   background-color: var(--bg-2) !important   ;
+  -webkit-tap-highlight-color: transparent;
 }
 section {
   background-color: var(--white);
