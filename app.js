@@ -17,3 +17,15 @@
           });
         });
       });
+
+
+      // nav
+      const menu = document.querySelector(".custom-hamburger");
+      const nav = document.querySelector(".navbar");
+
+      menu.addEventListener('click',()=>{
+        console.log('ff')
+
+          nav.classList.add('nav_white');
+
+      })
