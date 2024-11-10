@@ -3,7 +3,7 @@
   --bg-2: #111315;
   --bg: #111;
   --neon-green: #9cee69;
-  /* --neon-green: #6cc832; */
+  --neon-green: #aaff00;
   --white: white;
   --primary: #021217;
   --black: black;
@@ -19,11 +19,14 @@ section {
 a {
   text-decoration-color: green;
 }
+.button-4 ,.w-button,button{
+  border-radius: 12px !important;
+}
 .n-button {
   /* margin-top: 3rem; */
   --bg: #002730;
   --hover-bg: #ff90e8;
-  --hover-bg: #9cee69;
+  --hover-bg: var(--neon-green);
   --hover-text: #000;
   color: #fff;
   cursor: pointer;
@@ -326,7 +329,7 @@ background: linear-gradient(to bottom, var(--light-blue), #fff)
   font-size: 1.1rem;
   font-weight: 600;
   color: var(--primary);
-  background-color: #9cee69;
+  background-color: var(--neon-green);
   border-radius: 14px 25px 20px 18px;
 }
 .n-step h3 {
